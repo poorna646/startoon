@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    border: 1px solid black;
+    border-radius: 6%;
+    padding: 5%;
+}
+
+.bl {
+    color: #012e57;
+}
+
+.graph {
+    color: white;
+    background-color: #012e57;
+    border: 1px solid #012e57;
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.graph img {
+    padding-left: 4%;
+    width: 50%;
+}
+
+.side {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.side1, .side2 {
+    width: 45%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.side1 p, .side2 p {
+    margin: 5px 0;
+}
+
+.side1 hr, .side2 hr {
+    margin: 10px 0;
+    border: 1px solid #000; /* Ensure the hr line is visible */
+}
+
+.side1 {
+    padding-left: 10%;
+}
+
+.side2 {
+    padding-top: 1%;
+    padding-right: 50%;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+}
+
+.inline p {
+    margin: 0;
+    padding-left: 5px; 
+}
+
+.side11, .side22 {
+    flex: 1;
+}
+
+.side11 {
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side22 {
+    padding-right: 10%;
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
